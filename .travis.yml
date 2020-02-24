@@ -1,0 +1,10 @@
+language: java
+jdk:
+  - oraclejdk8
+deploy:
+  provider: heroku
+  api_key:
+    secure: uh9NezroiaCaN52vUaL3zpiiTrYbl+0YpKH92Ak5JrFJHMrHplfoPCuF8BNI8jdjXZ22U+LFB3+30UQmJXF+DPJHkEoqZUXPfgmOH8AqpgjfFhF4+uV52zjA3JGkQfFSOxWRK6ZM0wyyz4Y7DNHw9JA5wCCm3GY5quymZ4F+QHc3BQ6IGIAI7gxXo80Z/P22XeqsseBC1SfNd32C8STY5tXoJKoj5m7/DnqBY7uUD2aMzu7s6D+gBIyBbm4UjBewJEusnhoktGkq25b/WbkbVvRrT6nLeetmtrLuThLgUv6/m9ptAsOANjTDSiUPky7umF+/p43cRyNIMjNH0V6TXBwez/xBW/M/GBKaGXRX5xeQmWiGBREjoj/jSIZ4un7wkGTO6AaXaCDSZDHfWHtNEuE1CTwr0l9q/g7u+YCsHvU9ds7Sd2NwVPoQwyEcI85F/4cVFBUanyOe/I3q4CtERNKmOu7wXR5okw+DazBURCAI3oz98/3qz5VBNgAtZDXhhih9RedAKUTNKRN0zUdRLnoiCRjEjKhUlY+zi+8ZmoRNQvPH8tiG34YiHDqFgC20RGOJIevRBnIIvSdfb0lQjRd0PKYjhiC3uQOPUgjenNXq/eALeoiMMxFiIrDXpnhI4Lz1V+a3646Xro73aFPG+DJg2AhwpzO5RM3Z40T/YkI=
+  app: travisymljava
+  on:
+    repo: alakijaayo/TestDeploy
