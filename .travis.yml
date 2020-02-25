@@ -7,6 +7,7 @@ before_install:
   - npm i
   - cd ../../../../..
 script:
+  - mvn package
   - ./mvnw spring-boot:run
 deploy:
   provider: heroku

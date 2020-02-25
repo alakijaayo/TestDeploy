@@ -52,9 +52,11 @@
 					</execution>
 				</executions>
 				<configuration>
-					<executable>ng</executable>
+					<executable>npm</executable>
 					<workingDirectory>src/main/resources/frontend/testapp</workingDirectory>
 					<arguments>
+						<argument>run</argument>
+						<argument>ng</argument>
 						<argument>build</argument>
 					</arguments>
 				</configuration>
