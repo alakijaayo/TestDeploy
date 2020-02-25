@@ -2,6 +2,8 @@ language: java
 jdk:
   - openjdk8
 before_install:
+  - cd src/main/resources/frontend/testapp
+  - npm i
   - chmod +x mvnw
 script:
   - ./mvnw spring-boot:run
