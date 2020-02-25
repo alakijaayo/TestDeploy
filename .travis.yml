@@ -6,7 +6,7 @@ before_install:
   - cd src/main/resources/frontend/testapp
   - npm i
 script:
-  - ./mvnw spring-boot:run
+  - mvn clean package
 deploy:
   provider: heroku
   api_key:
