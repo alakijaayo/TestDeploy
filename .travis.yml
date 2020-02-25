@@ -5,6 +5,7 @@ before_install:
   - chmod +x mvnw
   - cd src/main/resources/frontend/testapp
   - npm i
+  - cd ../../../../..
 script:
   - mvn clean package
 deploy:
